@@ -1,0 +1,38 @@
+
+body {
+    background: skyblue;
+    margin: 0;
+    height: 100%; /* Set height to 100% */
+  
+
+.light {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+    animation: light 800ms ease-in-out 0s infinite alternate;
+}
+
+.cloud {
+    position: fixed;
+    bottom: 0px; /* Set to bottom */
+    right: -500px;
+    opacity: .8;
+    z-index: 99;
+    animation: cloud 10s linear 0s infinite reverse;
+}
+
+@keyframes light {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes cloud {
+    from {right:-500px;}
+    to {right: 102%;}
+}
+

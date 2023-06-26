@@ -1,0 +1,301 @@
+body {
+    background:white;
+  
+    height: 100%;
+    padding: 0;
+	padding-bottom: 60px;
+	margin:0;
+	
+		}
+
+
+		/*top nav*/
+		.navbar {
+			background-color: #f8f8f8;
+			height: 60px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 20px;
+		  }
+		
+		  .logo {
+			width: 40px;
+			height: 40px;
+			margin-right: 10px;
+		  }
+		
+		  .logo img {
+			width: 100%;
+			height: 100%;
+		  }
+		
+		  .brand {
+			font-size: 24px;
+			font-weight: bold;
+		  }
+		
+		  .contact {
+			font-size: 18px;
+		  }
+		  
+/*end*/		  
+/* Add styles for the navigation menu */
+.menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #030337;
+	margin-bottom: 0rem;
+  }
+  
+  .menu li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  .menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+  }
+  
+  .menu li a:hover {
+	background-color: #E7E7F6;
+	color: #030337;
+  }
+  
+  /* Add styles for the logo */
+  .logo {
+	height: 50px;
+	margin-left: 20px;
+	object-fit: cover;
+  }
+  
+  /* Add styles for the title */
+  h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50pt;
+	font-weight: bold;
+	color: #030337;
+	margin: 0;
+  }
+  
+  #title {
+	display: inline;
+  }
+  .susan {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-height: 1000px;
+	;
+}
+
+.susan img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	margin: 105px 100px;
+	padding: 20px;
+	background-color: rgba(199, 204, 206, 0.5);
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(217, 40, 40, 0.2);
+	opacity: 1;
+}
+
+.content p {
+	color: rgb(0, 0, 0);
+}
+
+.content_form {
+	position: relative;
+	z-index: 1;
+	margin:0px 400px 10px 100px; /* Adjust the margin values as per your preference */
+	padding: 10px;
+
+	background-color: rgba(202, 203, 209, 0.8);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	opacity: 0.91;
+}
+
+
+
+
+
+
+/* curvy*/
+
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    .geeks {
+        padding: 200px;
+        text-align: center;
+    }
+      
+    section {
+        width: 100%;
+        min-height:200px;
+    }
+      
+	
+	  .pattern:before {
+		content: "";
+		position: absolute;
+		bottom:0;
+		left: 0;
+		width:100% ;
+		height: 56px;
+		background: url(wave.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding:0;
+	  }
+	  
+	  .containerr {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.contentt {
+		flex-grow: 1;
+	}
+
+	.image {
+		margin-left: 20px;
+		width: 200px;
+		height: 20px;
+	}
+
+	  .slideshow {
+			
+			position: relative;
+			margin: auto;
+			max-height: 700px;
+			padding:20px;
+		
+		}
+
+		.slideshow img {
+			position:absolute;
+			top: 49%;
+			left: 49.99%;
+		
+			width: 100%;
+            transform: translate(-50%, -50%);
+			height: 100%;
+			z-index: -1;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		.slideshow img.active {
+			opacity: 1;
+		}
+		.aboutt {
+			position: relative;
+			width: 400px;
+			top: 35px;
+			left: 20px;
+		  }
+		  
+		  .aboutt img {
+			position: absolute;
+			top: 10%;
+			left: 50%;
+			width: 100%;
+			transform: translate(-50%, -50%);
+			height: 100%;
+			z-index: -1;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		  }
+		  .package-image {
+			width: 2px; /* Adjust the width as per your preference */
+			height: 5px; /* Adjust the height as per your preference */
+		  }
+		  .package-image-small {
+			width: 10px; /* Adjust the width as per your preference */
+			height: auto; /* Auto adjust the height based on the width */
+		  }
+	
+			.orange-div {
+			  background-color: orange;
+			  padding: 20px;
+			  text-align: center;
+			  color: white;
+			  width: 100%;
+			  height: 50%;
+			}
+		  .client-photo {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin: 5px auto;
+		  }
+		  .logo-container {
+			display: flex;
+			align-items: center;
+		}
+		
+		.logo {
+			width: 50px; /* Adjust the width as needed */
+			height: auto; /* Maintain aspect ratio */
+			margin-right: 10px; /* Add some margin for spacing */
+		}
+		
+		#title {
+			margin: 0;
+		}
+		
+
+		@keyframes fly {
+			0% {
+			  transform: translateX(-100%);
+			}
+			100% {
+			  transform: translateX(100%);
+			}
+		  }
+		  
+		  .navbar {
+			position: relative;
+		  }
+		  
+		  .navbar::after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 30px;
+			height: 30px;
+			background-image: url(images/plane.png);
+			background-size: cover;
+			animation: fly 10s linear infinite;
+		  }
+		  .imgHolder {
+			height: 200px; /* Set a fixed height for the image container */
+		  }
+		  .imgHolder img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%; /* Make the image fill the container */
+		  }
